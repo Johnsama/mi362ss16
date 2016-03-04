@@ -1,0 +1,50 @@
+@media (max-width: 1200px) {
+  .img {
+    width: 70%;
+    }
+}
+
+@media (max-width: 800px) {
+  .img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .img {
+    width: 100%;
+  }
+}
+
+@media(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  /* Retina */
+}
+
+figcaption {
+	font-size: 15px;
+	margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1{
+	font-size:30px;
+	margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p {
+	font-size:23px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+img{
+	border-radius: 50%;
+}	
